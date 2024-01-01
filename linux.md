@@ -68,7 +68,9 @@ ln -s ~/repos/per/archlinux/dotfiles/kitty kitty
 ln -s ~/repos/per/archlinux/dotfiles/alacritty alacritty
 ln -s ~/repos/per/archlinux/dotfiles/awesome/ ~/.config/
 ```
-nvim config
+_nvim config_
+
+_copiar key de .ssh_
 
 ### Configuración Neovim
 - "nvim-tree/nvim-web-devicons"
