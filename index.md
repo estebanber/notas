@@ -1,6 +1,13 @@
 # Esteban Blas Berná Peña
 
-## Accesos
+## Inicio
+- [Inbox](inbox.md)
+- Proyectos
+- Areas
+- Recursos
+- Archivo
+
+## Accesos rápidos
 - [Linux](linux.md)
 - [Proyectos](proyectos.md)
     - [Omnitronic](omnitronic.md)

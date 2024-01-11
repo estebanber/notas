@@ -7,7 +7,7 @@
 ### Paquetes a instalar
 Principales:
 
-alacritty arandr bat exa ffmpeg fish fzf git gst-plugins-ugly kitty luarocks ncdu neofetch nitrogen nvim pass pulseaudio ranger ripgrep ristretto rofi scrot thunar wget rust base-devel
+net-tools inetutils alacritty arandr bat exa ffmpeg fish fzf git gst-plugins-ugly kitty luarocks ncdu neofetch nitrogen nvim pass pulseaudio ranger ripgrep ristretto rofi scrot thunar wget rust base-devel
 
 Instalar gestor de paquetes AUR
 
@@ -18,7 +18,7 @@ makepkg -si
 ```
 Paquetes AUR:
 
-slack zoom teams marktext-bin
+slack zoom teams marktext-bin tty-clock cava
 
 [Marktext](https://github.com/marktext/marktext)
 
