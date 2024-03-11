@@ -9,6 +9,10 @@ Principales:
 
 net-tools inetutils alacritty arandr bat exa ffmpeg fish fzf git gst-plugins-ugly kitty luarocks ncdu neofetch nitrogen nvim pass pulseaudio ranger ripgrep ristretto rofi scrot thunar wget rust base-devel
 
+Sonido:
+pulseaudio pulseaudio-alsa pavucontrol bluez bluez-utils alsa-utils pulseaudio-bluetooth 
+
+
 Instalar gestor de paquetes AUR
 
 ```bash
@@ -81,3 +85,16 @@ _copiar key de .ssh_
 - "neovim/nvim-lspconfig"
 - 'jakewvincent/mkdnflow.nvim',
 - 'nvim-telescope/telescope.nvim',
+
+### Conectar auriculares bluetooth
+systemctl start bluetooth
+pulseaudio -D (or -- daemonize)
+bluetoothctl
+    power on
+    default-agent
+    agent-on
+    scan on
+    scan off
+    pair __MAC__
+    connect __MAC__
+
