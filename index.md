@@ -1,7 +1,16 @@
 # Esteban Blas Berná Peña
 
 ## Inicio
-- [Inbox](inbox.md)
+- [Journal](journal.md)
+- [Todo](todo.txt)
+- [Proyectos](proyectos.md)
+- [Areas](areas.md)
+- [Recursos](recursos-md)
+- [Notas](notas/notas.md)
+- [Listas](listas.md)
+- [Archivo](archivo.md)
+
+
 - Proyectos
 - Areas
 - Recursos
@@ -14,9 +23,10 @@
     - [Bicilocker](bicilocker.md)
     - [Zulkee](zulkee.md)
     - [Poster maps](poster-maps.md)
+    - [Anitracks](anitracks.md)
 - [Hobbies](hobbies.md)
-- Casa J21
+- [Casa J21](casa-j21)
 - [Ejercicio](Ejercicio.md)
 
 ## Links
-Links de internet para darles una mirada luego [Links](links.md)
+Links de internet para darles una mirada luego [Links](listas/links.md)

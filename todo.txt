@@ -1,0 +1,18 @@
+x Revisar parlantes del Omar
+x (C) 2024-04-28 Ordenar electrónica @Casa
+x (A) 2024-05-25 Orden general de la casa
+x (A) 2024-05-12 Llevar a Suri al Veterinario
+x (A) 2024-05-12 Limpiar estufa y encenderla
+x 2024-04-30 Crear script o pagina dinamica que busque todas las tareas y las muestre en una pagina
+x 2024-04-28 Revisar finanzas, crear jupiter notebook
+x 2024-04-28 Ordenar la pieza del beni
+Completar launchers de linux @Linux
+(C) 2024-05-25 Retomar placas bicilocker +Bicilocker
+(C) 2024-05-13 Colocar silicona en el baño @Casa
+(C) 2024-05-13 Arrglar vatea de la lavandería @Casa
+(C) 2024-05-12 Instalar soporte cortina @Casa
+(B) 2024-05-25 Crear claves hipotecario
+(B) 2024-05-12 Crear plantilla de cotizaciones e informes +Pulsebox
+(B) 2024-04-30 Crear accesos directos en Archlinux
+Armar una lista de peliculas y series para ver y vistas
+(A) 2024-05-25 Guardar compras para la casa nueva +Casa-J21
