@@ -4,7 +4,7 @@
  - [ ] Comenzar firmware Omnitronic
  - [ ] Estudiar hacer aplicaciones nativas para android
  - [ ] Comenzar aplicación de comunicación bluetooth
- - [ ] Cotizar gestión de fabricación
+ - [x] Cotizar gestión de fabricación
 
  ## Tiempo
 [2023-11-19] 16:00 ~ 17:00

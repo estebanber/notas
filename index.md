@@ -5,7 +5,7 @@
 - [Todo](todo.txt)
 - [Proyectos](proyectos.md)
 - [Areas](areas.md)
-- [Recursos](recursos-md)
+- [Recursos](recursos.md)
 - [Notas](notas/notas.md)
 - [Listas](listas.md)
 - [Archivo](archivo.md)
@@ -27,6 +27,13 @@
 - [Hobbies](hobbies.md)
 - [Casa J21](casa-j21)
 - [Ejercicio](Ejercicio.md)
+
+## Listas
+- [Peliculas](listas/peliculas.md)
+- [Series](listas/series.md)
+- [Libros](listas/libros.md)
+- [Anime](listas/anime.md)
+- [Manga](listas/manga.md)
 
 ## Links
 Links de internet para darles una mirada luego [Links](listas/links.md)
