@@ -1,3 +1,2 @@
 # Bonsais
-Ahora si puedo hablar de bonsais peeero....
-
+- [ ] Transplantar el bonsai de la maceta de cemento a la maceta de bonsai roja.
