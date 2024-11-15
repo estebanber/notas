@@ -118,3 +118,7 @@ Fui a la Pile y luego me fui al cine a ver Alien Romulus.
 
 # 2024-09-04
 
+
+# 2024-11-14
+Nuevamente procrastinando, jugando con una nueva instlación de linux, sistema de repositorios y notas
+

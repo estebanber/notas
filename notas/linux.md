@@ -1,100 +1,48 @@
-# Linux
+# .Dotfiles
+Crear un sistema para administrar los dotfiles. De forma de tenerlos en un repositorio. Y poder replicar mi configuración rapidamente en cualquier computadora.
+quisiera contar con configuraciónes para varios windows manager, como son: Awesome WM, dwm, Hyprland y Qtile.
 
-## Instalación Archlinux
+# Scripts
+Para simplificar algunas tareas reptitivas que tengo que realizar al cambiar de contexto (trabajo freelance, diseño de hardware. trabajo, fotografía, etc.) la idea es crear scripts que ejecuten y preparen el entorno necesario. Estos script pueden diferencia si estamos en un entorno de solo consola o en un entorno gráfico. Crear launcher rofi (o uno específico del WM) para simplificar el llamdo de los diferentes scripts.
 
-### Script de instalación
-
-### Paquetes a instalar
-Principales:
-
-net-tools inetutils alacritty arandr bat exa ffmpeg fish fzf git gst-plugins-ugly kitty luarocks ncdu neofetch nitrogen nvim pass pulseaudio ranger ripgrep ristretto rofi scrot thunar wget rust base-devel
-
-Sonido:
-pulseaudio pulseaudio-alsa pavucontrol bluez bluez-utils alsa-utils pulseaudio-bluetooth 
+Script para commitear y pushear contraseñas
 
 
-Instalar gestor de paquetes AUR
+# Repositorios y colecciones
+Debo crear repositorio y/o colecciones centralizadas de los siguientes recursos.
+- Imagenes
+- Fotos
+- Libros
+- Comics
 
-```bash
-git clone https://aur.archlinux.org/paru.git
-cd paru
-makepkg -si
+Teniendo estos repositorios es mucho mas facil hubicar recursos y crear backups.
+
+# Herramientas a probar
+- Yazi
+- Qtile
+- Hyprland
+
+# Nuevo proceso de instalación
+1. Scripts de instalación (durante chroot)
+2. Scripts de instalación (dentro del sistema)
+3. Clonar repositorio de scripts
+4. Descargar y configurar certificados git
+    ~/.ssh/nombre
+    ~/.ssh/nombre.pub
+    ~/.ssh/config
+
 ```
-Paquetes AUR:
-
-slack zoom teams marktext-bin tty-clock cava
-
-[Marktext](https://github.com/marktext/marktext)
-
-### Post instalación
-Cambiar el shel principal por fish
-
-```bash
-chsh -s /usr/bin/fish
+Host github.com
+  User git
+  IdentityFile ~/.ssh/nombre
 ```
-
-Paquete necesario para ~Ya no me acuerdo~
-
-```bash
-luarocks install luautf8
+5. Crear estructura de repositorios
+    per/
+    pro/
+    3rd/
 ```
-
-Bajar repositorio de contraseñasa. Setear variable de entorno PASSWORD_STORE_DIR e importar clave privada
-
-```bash
-gpg --decrypt file.gpg | gpg --import
-export PASSWORD_STORE_DIR=~/dieworte/
+./myrepos.sh crear_estructura ~/repos
+./myrepos.sh clonar_personal ~/repos
 ```
-o
-
-```fish
-gpg --decrypt file.gpg | gpg --import
-set -Ux PASSWORD_STORE_DIR ~/repos/eb/dieworte
-```
-
-Aliases:
-
-```bash
-alias ll="exa --icons -l"
-funcsave ll
-alias ls="exa --icons"
-funcsave ls
-alias notas="nvim ~/repos/per/notas/index.md"
-funcsave notas
-```
-
-Descargar repositorio de configuraciones y linkear dotfiles
-
-```bash
-git clone http://github.com/estebanber/archlinux ~/repo/per/archlinux --recursive
-cd ~/.config
-ln -s ~/repos/per/archlinux/dotfiles/kitty kitty
-ln -s ~/repos/per/archlinux/dotfiles/alacritty alacritty
-ln -s ~/repos/per/archlinux/dotfiles/awesome/ ~/.config/
-```
-_nvim config_
-
-_copiar key de .ssh_
-
-### Configuración Neovim
-- "nvim-tree/nvim-web-devicons"
-- "nvim-lua/plenary.nvim"
-- 'hrsh7th/nvim-cmp'
-- "nvim-neo-tree/neo-tree.nvim"
-- "MunifTanjim/nui.nvim",
-- "neovim/nvim-lspconfig"
-- 'jakewvincent/mkdnflow.nvim',
-- 'nvim-telescope/telescope.nvim',
-
-### Conectar auriculares bluetooth
-systemctl start bluetooth
-pulseaudio -D (or -- daemonize)
-bluetoothctl
-    power on
-    default-agent
-    agent-on
-    scan on
-    scan off
-    pair __MAC__
-    connect __MAC__
+6. Linkear dotfiles a .config
 
