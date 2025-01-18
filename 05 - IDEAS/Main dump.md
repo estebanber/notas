@@ -1,0 +1,24 @@
+- # Tareas
+- # Pixelart
+  id:: 64868bef-55cd-4fa4-9cea-258d13e3eb62
+	- tags:: #PixelArt
+	- Piramide en fondo negro
+	- Araña
+	- Casa vieja isometrica
+	- Departamento isometrico
+	- Patio del complejo
+	- Beni maestro pokemon
+	- Calavera
+	- Kanjis
+- # Programacion
+	- Armar plantilla CMake
+	- Comenzar curso de rust
+- # Varios/Random
+- Gastos
+	- No quiero atarme a ningun programa comercial
+	- Tengo que poder pasar a una hoja de calculo facilmente
+	- Compartido, una interfaz simple que pueda usar tanto la rocío como yo
+	- Se tiene que poder usar en los celulares
+- Armar webs
+	- Investigar de Hugo (generación de web estaticas)
+	- Crear sitio innovadores

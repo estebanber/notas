@@ -1,0 +1,40 @@
+- Objetivo/Propósito
+- Documentación y requerimientos
+- Metodología de trabajo
+	- Reunión inicio sprint (una o dos semanas)
+		- Asignación de tareas
+		- Estimación de tareas
+	- Reunión diaria
+		- Avances y problemas y necesidades
+	- Reunión fin del sprint
+		- revisión de tareas completadas
+- Detalle de cada funcionalidad
+	- Diagramas de estados o diagrama de flujo
+	- Determinar entradas y salidas
+	- Determinar tareas
+	- Diagrama de secuencias de cada tarea
+	- Diseño alto nivel (funciones/clases necesarias)
+	- Desarrollo de cada modulo/función/clase
+		- Diseño bajo nivel/modelado de algoritmos
+		- Desarrollo de test unitarios
+		- Desarrollo de la función
+- Diseño
+	- Interfaces de comunicación y protocolos
+		- sensores-hub
+		- hub-control central
+	- Adquisión
+		- Startup code
+		- Drivers perifericos
+		- Loop adquisición-transmisión
+	- Hub
+		- Startup code
+		- Drivers de perífericos
+		- Adquisión de sensores secundarios
+		- Recepción, empaquetamiento, trasmisión de datos
+	- Control central
+		- Startup code
+		- Drivers de perífericos
+		- Recepción de datos
+		- Almacenamiento
+		- Interfaz de usuario
+-

@@ -1,0 +1,45 @@
+{
+  "settings": {
+    "migrated": 6,
+    "iconPacksPath": ".obsidian/icons",
+    "fontSize": 16,
+    "emojiStyle": "native",
+    "iconColor": null,
+    "recentlyUsedIcons": [
+      "LiCodeSquare",
+      "LiList",
+      "LiCalendarDays",
+      "LiLightbulb",
+      "LiNotepadText"
+    ],
+    "recentlyUsedIconsSize": 5,
+    "rules": [],
+    "extraMargin": {
+      "top": 0,
+      "right": 4,
+      "bottom": 0,
+      "left": 0
+    },
+    "iconInTabsEnabled": false,
+    "iconInTitleEnabled": false,
+    "iconInTitlePosition": "above",
+    "iconInFrontmatterEnabled": false,
+    "iconInFrontmatterFieldName": "icon",
+    "iconColorInFrontmatterFieldName": "iconColor",
+    "iconsBackgroundCheckEnabled": false,
+    "iconsInNotesEnabled": true,
+    "iconsInLinksEnabled": true,
+    "iconIdentifier": ":",
+    "lucideIconPackType": "native",
+    "debugMode": false
+  },
+  "00 - INDEX": "LiArrowUpRightFromSquare",
+  "01 - PROYECTOS": "LiSprout",
+  "02 - AREAS": "LiMap",
+  "03 - RECURSOS": "LiBook",
+  "04 - NOTAS": "LiNotepadText",
+  "05 - IDEAS": "LiLightbulb",
+  "06 - DIARIO": "LiCalendarDays",
+  "07 - LISTAS": "LiList",
+  "99 - META": "LiCodeSquare"
+}

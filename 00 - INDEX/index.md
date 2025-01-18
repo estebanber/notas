@@ -6,7 +6,7 @@
 - [Proyectos](proyectos.md)
 - [Areas](areas.md)
 - [Recursos](recursos.md)
-- [Notas](notas/notas.md)
+- [Notas](Notas.md)
 - [Listas](listas.md)
 - [Archivo](archivo.md)
 
@@ -17,9 +17,9 @@
 - Archivo
 
 ## Accesos rápidos
-- [Linux](linux.md)
+- [Linux](02 - AREAS/linux.md)
 - [Proyectos](proyectos.md)
-    - [Omnitronic](omnitronic.md)
+    - [Omnitronic](Omnitronic_old.md)
     - [Bicilocker](bicilocker.md)
     - [Zulkee](zulkee.md)
     - [Poster maps](poster-maps.md)

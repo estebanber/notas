@@ -1,4 +1,6 @@
-
+[](https://www.instructables.com/Vault-Assault-Original-Mechanics-Based-3D-Printabl/)
+[](https://www.etsy.com/shop/SetEngineering)
+[](https://www.youtube.com/@MachoNachoProductions)
 [](https://github.com/echasnovski/mini.nvim)
 [](https://interversehq.com/qview/)
 [](https://github.com/jan-xyz/Dotfiles)
@@ -13,3 +15,6 @@
 [](https://terminal.sexy/)
 [](https://github.com/dctxmei/rofi-themes)
 [](https://orangeglo.github.io/)
+[](https://selfhostedhome.com/)
+[Templates básicos para STM32](https://stm32-base.org/)
+[Pokemon sprites](https://veekun.com/dex/downloads)

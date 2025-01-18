@@ -1,0 +1,4 @@
+- g++ main.cpp shader.cpp -lGLEW -lglfw -lGL;./a.out
+- http://www.opengl-tutorial.org/
+- https://open.gl/drawing
+- https://learnopengl.com/In-Practice/Text-Rendering

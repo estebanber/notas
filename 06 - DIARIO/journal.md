@@ -1,5 +1,3 @@
-# Old
-
 ## Ideas
 - Animación de recorridos y rutas
 - [Cortador de botella](https://www.instructables.com/DIY-Automated-Glass-Bottle-Cutter/?utm_source=newsletter&utm_medium=email)
@@ -115,9 +113,6 @@ Finalmente estoy terminando la placa de Omnitronic. Un poco mas complejidad que 
 
 # 2024-09-03
 Fui a la Pile y luego me fui al cine a ver Alien Romulus.
-
-# 2024-09-04
-
 
 # 2024-11-14
 Nuevamente procrastinando, jugando con una nueva instlación de linux, sistema de repositorios y notas

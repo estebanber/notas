@@ -1,0 +1,182 @@
+{
+  "main": {
+    "id": "36062acf66e2db03",
+    "type": "split",
+    "children": [
+      {
+        "id": "75a140d951bbefee",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "21e1783be751cea1",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Nueva pestaña"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "484962ee5e24b383",
+    "type": "split",
+    "children": [
+      {
+        "id": "430952deaea15a70",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d7d603ed0fb9970a",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorador de archivos"
+            }
+          },
+          {
+            "id": "262990fee8ba8f07",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Buscar"
+            }
+          },
+          {
+            "id": "b9113567ec8c204a",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Marcadores"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "98a4810a55679b42",
+    "type": "split",
+    "children": [
+      {
+        "id": "3fd6d6a5c932db06",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0472e61787ac65b8",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "01 - PROYECTOS/Omnitronic.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Enlaces entrantes de Omnitronic"
+            }
+          },
+          {
+            "id": "08c8115aeb88d7a3",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "01 - PROYECTOS/Omnitronic.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Enlaces salientes de Omnitronic"
+            }
+          },
+          {
+            "id": "c2a922ed2327ce3f",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Etiquetas"
+            }
+          },
+          {
+            "id": "53dc5de57fd99e50",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {},
+              "icon": "lucide-list",
+              "title": "Esquema"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir selector rápido": false,
+      "graph:Abrir vista gráfica": false,
+      "canvas:Crear nuevo lienzo": false,
+      "daily-notes:Abrir la nota de hoy": false,
+      "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false
+    }
+  },
+  "active": "21e1783be751cea1",
+  "lastOpenFiles": [
+    "01 - PROYECTOS/Omnitronic.md",
+    "01 - PROYECTOS/Omnitronic_old.md",
+    "04 - NOTAS/Notas.md",
+    "99 - META/Notebook Backgrounds.css",
+    "07 - LISTAS/series.md",
+    "2024-11-15.md",
+    "99 - META/Colored Sidebar Items.css~",
+    "99 - META/Colored Sidebar Items.css",
+    "07 - LISTAS/peliculas.md",
+    "07 - LISTAS/manga.md",
+    "07 - LISTAS/links.md",
+    "07 - LISTAS/libros.md",
+    "07 - LISTAS/anime.md",
+    "04 - NOTAS/metodo_para.md",
+    "04 - NOTAS/hobbies.md",
+    "04 - NOTAS/Ejercicio.md",
+    "04 - NOTAS/casa-j21.md",
+    "04 - NOTAS/Bonsais.md",
+    "04 - NOTAS/anitracks.md",
+    "00 - INDEX/index.md"
+  ]
+}

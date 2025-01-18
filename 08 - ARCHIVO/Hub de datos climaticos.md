@@ -1,0 +1,17 @@
+- Plataforma para agrupar datos de estaciones meteorológicas alrededor del mundo
+- Lista de web utiles
+	- https://data.world/datasets/weather
+	- https://www.weather.gov/lot/obtain_climate
+	- https://rp5.ru/
+	- http://cdiac.ornl.gov/epubs/ndp/ushcn/ushcn_map_interface.html
+	- www.wunderground.com
+	- www.tutiempo.net/en/Climate
+	- https://power.larc.nasa.gov/
+	- https://www.usna.edu/Users/oceano/pguth/md_help/html/met_clim_downloads.htm
+	- https://data.open-power-system-data.org/weather_data/
+	- https://www.ncdc.noaa.gov/cdo-web/datasets
+	- https://docs.stormglass.io/#/
+	- https://worldweather.wmo.int/en/city.html?cityId=856
+	- https://meteostat.net/en/
+	- https://www.smn.gob.ar/descarga-de-datos
+	- https://climate.onebuilding.org

@@ -1,0 +1,21 @@
+- [ ] We are the strange
+- [ ] Tatami galaxy
+- [ ] Superflat monogram
+- [ ] Nekojirou sou
+- [ ] Tenshi no tamago
+- [ ] Paprika
+- [x] Perfect blue
+- [ ] Devilman: Tanjou-hen y
+- [x] Devilman: Crybaby
+- [ ] FLCL (1 y 2)
+- [ ] JoJo Bizarre Adventure
+- [ ] Patlabor
+- [ ] Persona 5
+- [ ] Genocyber
+- [ ] Hadashi no Hen
+- [ ] La tumba de las luciernagas
+- [ ] Jin-Roh
+- [ ] Gantz
+- [ ] Shoutso tsubaki
+- [ ] Shôjo tsubaki
+- [ ] Nija Scroll

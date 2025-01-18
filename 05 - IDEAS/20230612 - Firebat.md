@@ -1,0 +1,1 @@
+- Contruir un firebat (unidad lanzallamas) de #Starcraft utilizando partes de descarte que tengo archivadas usando la las técnicas de [[Scratch building]]

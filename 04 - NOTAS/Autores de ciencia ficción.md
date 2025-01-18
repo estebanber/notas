@@ -1,0 +1,16 @@
+- Ted Chiang
+- Frederik Pohl
+- Brian Aldiss
+- Arthur Clarke
+- Asimov
+- Sturgeon
+- Bradbury
+- Robert A. Heinlein
+- Murray Leinster
+- William Gibson
+- Neal Stephenson
+- Philip K. Dick
+- James G. Ballard
+- Stanislaw Lem
+- Christopher Priest
+- Frank Herbert
