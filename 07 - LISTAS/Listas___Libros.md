@@ -40,22 +40,21 @@
   + [ ] Elantris (Brandon Sanderson)
   + [ ] La saga de La rueda del tiempo
 - Ciencia ficción
-  + [ ] THE THREE-BODY PROBLEM, DE LIU CIXIN
-  + [ ] Los Desposeídos (1974), Ursula K. Le Guin
+  + [X] THE THREE-BODY PROBLEM, DE LIU CIXIN
+  + [X] Los Desposeídos (1974), Ursula K. Le Guin
   + [ ] La mano izquierda de la oscuridad
   + [ ] Saga de la Cultura (1987-2012), Ian M. Banks
   + [ ] Never Let Me Go By Kazuo Ishiguro (2005)
   + [ ] Oryx and Crake By Margaret Atwood (2003)
   + [ ] The Ones Who Walk Away from Omelas, By Ursula K. Le Guin (1973)
   + [ ] Gateway By Frederik Pohl (1977)
-  + [ ] Dune
   + [ ] The Cyberiad, de Stanislaw Lem
   + [ ] Snow Crash (Neal Stephenson)
   + [ ] La voz de los muertos (Orson Scott Card)
   + [ ] A Deepness in the Sky
   + [ ] Trilogía La Cuarta Realidad (John Twelve Hawks)
   + [ ] Wyrm (Mark Fabi)
-  + [ ] Brave New World, by Aldous Huxley (1932)
+  + [X] Brave New World, by Aldous Huxley (1932)
   + [ ] Dirk Gently's Holistic Detective Agency, by Douglas Adams (1987)
   + [ ] Gateway, by Frederik Pohl (1977)
   + [ ] Neuromancer, by William Gibson (1984)
@@ -71,7 +70,7 @@
   + [ ] The Mount, by Carol Emshwiller (2002)
   + [ ] The Ones Who Walk Away from Omelas, by Ursula K. Le Guin (1973)
   + [X] Do Androids Dream of Electric Sheep?, by Philip K. Dick (1968)
-  + [ ] The Wind-Up Bird Chronicle, by Haruki Murakami (1994)
+  + [X] The Wind-Up Bird Chronicle, by Haruki Murakami (1994)
   + [ ] Blindness, by José Saramago (1995)
   + [ ] Oryx and Crake, by Margaret Atwood (2003)
   + [ ] The Lottery, by Shirley Jackson (1948)

@@ -3,7 +3,7 @@
   + [ ] Monster
   + [ ] 20th century boys
   + [ ] Pluto
-  + [ ] Akira
+  + [X] Akira
   + [ ] Jojo
   + [ ] Vinland saga
   + [ ] Bersek

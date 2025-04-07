@@ -28,9 +28,8 @@
 - [ ] Beyond the black rainbow (2010)
 - [ ] THX 1138
 - [ ] Timecrimes
-- [ ] Coherence
+- [X] Coherence
 - [ ] Dark city
-- [ ] Stalker
 - [X] Under the skin
 - [ ] Stalker
 - [ ] Mayhem
