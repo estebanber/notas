@@ -329,3 +329,179 @@ https://www.neoteo.com/wacup-winamp-rescatado-por-la-comunidad/
 https://www.instructables.com/DIY-Yagi-Antenna-for-LoRa/?utm_source=newsletter&utm_medium=email
 https://github.com/soulscircuit/pilet
 https://www.kickstarter.com/projects/soulscircuit/pilet-opensource-modular-portable-mini-computer
+
+# 2025-04-08
+
+# 2025-04-10
+
+"schedules": {
+          "1": {
+            "enabled": true,
+            "time": "06:00",
+            "recurring": [
+              "weekdays"
+            ],
+            "action": {
+              "type": "SET_TEMPERATURE_MODE",
+              "cool_setpoint": 72.0,
+              "heat_setpoint": 69.0
+            },
+            "occupied": false
+          },
+          "2": {
+            "enabled": true,
+            "time": "07:00",
+            "recurring": [
+              "sat"
+            ],
+            "action": {
+              "type": "SET_TEMPERATURE_MODE",
+              "cool_setpoint": 72.0,
+              "heat_setpoint": 69.0
+            },
+            "occupied": false
+          },
+          "3": {
+            "enabled": true,
+            "time": "09:00",
+            "recurring": [
+              "sun"
+            ],
+            "action": {
+              "type": "SET_TEMPERATURE_MODE",
+              "cool_setpoint": 72.0,
+              "heat_setpoint": 69.0
+            },
+            "occupied": false
+          },
+          "4": {
+            "enabled": true,
+            "time": "21:00",
+            "recurring": [
+              "sun"
+            ],
+            "action": {
+              "type": "SET_TEMPERATURE_MODE",
+              "cool_setpoint": 79.0,
+              "heat_setpoint": 61.0
+            },
+            "occupied": false
+          },
+          "5": {
+            "enabled": true,
+            "time": "22:00",
+            "recurring": [
+              "mon",
+              "tue",
+              "wed",
+              "thu",
+              "fri",
+              "sat"
+            ],
+            "action": {
+              "type": "SET_TEMPERATURE_MODE",
+              "cool_setpoint": 79.0,
+              "heat_setpoint": 61.0
+            },
+            "occupied": false
+          }
+        }
+      },
+
+# 2025-04-11
+
+
+# 2025-04-22
+
+# 2025-05-22
+* Minimum 4 years of professional experience developing software in modern C++ (C++11 or later) for embedded or IoT systems.
+* Strong understanding of embedded systems architecture and constrained environments, including memory and power limitations.
+* Experience developing device drivers, hardware abstraction layers (HAL), or middleware for microcontrollers (e.g., ARM Cortex-M).
+* Hands-on experience working with real-time operating systems (RTOS) or bare-metal systems.
+* Solid knowledge of communication protocols such as MQTT, CoAP, BLE, Zigbee, or UART/SPI/I2C.
+* Proficiency in debugging embedded systems using tools like logic analyzers, oscilloscopes, or hardware simulators.
+* Familiarity with cross-compilation toolchains, build systems (e.g., CMake), and CI/CD pipelines for embedded projects.
+
+# 2025-05-26
+## How to fix monuconfig in old idf project:
+add "int" before main(){} in file tools/kconfig/lxdialog/check-lxdialog.sh
+## HOw to wait connection on project
+```
+    EventBits_t bits = xEventGroupWaitBits(
+        mqtt_event_group,                    // Event group handle
+        BUDD_MPA_MQTT_CONNECTED_BIT,        // Bits to wait for
+        pdFALSE,                            // Don't clear bits on exit
+        pdFALSE,                            // Wait for ANY bit (not all)
+        portMAX_DELAY                       // Wait indefinitely
+    );
+    if (bits & BUDD_MPA_MQTT_CONNECTED_BIT) {
+        ESP_LOGI(TAG, "MQTT is now connected!");
+    } else {
+        ESP_LOGE(TAG, "Unexpected event group state");
+    }
+```
+## Set fixed IP in ESP32 Ethernet interface
+```
+        tcpip_adapter_dhcpc_stop(TCPIP_ADAPTER_IF_ETH);
+
+        tcpip_adapter_ip_info_t ip_info;
+        IP4_ADDR(&ip_info.ip, 192, 168, 2, 100);
+        IP4_ADDR(&ip_info.gw, 192, 168, 2, 1);
+        IP4_ADDR(&ip_info.netmask, 255, 255, 255, 0);
+
+        ESP_ERROR_CHECK(tcpip_adapter_set_ip_info(TCPIP_ADAPTER_IF_ETH, &ip_info));
+```
+## Lora OTA code (in progress)
+```
+    //uint8_t ota_response[20];
+    //size_t  ota_response_len;
+
+        //ota_response_len = 0;
+        //if (esp_ota_update_task(ota_response, &ota_response_len))
+        //{
+        //    bool ota_run = true;
+        //    uint64_t last_ota_package = 0;
+        //    xTimerStop( xPubMeasureTimer, 0 );
+        //    while (ota_run)
+        //    {
+        //        esp_task_wdt_reset();
+        //        if (ota_response_len || esp_ota_update_task(ota_response, &ota_response_len))
+        //        {
+        //            last_ota_package = esp_timer_get_time()/1000;
+        //            bf_pkg_t packet;
+        //            bf_pkg_multi_data_context_t context = {0}; // Initialize context
+        //            bf_pkg_status_t status;
+        //            status = bf_pkg_prepare_data(&packet,
+        //                                        &context,
+        //                                        BF_MPA_PAYLOAD_OTA,
+        //                                        ota_response,
+        //                                        ota_response_len);
+        //            ota_response_len = 0;
+        //            if (status == BF_PKG_SUCCESS)
+        //            {
+        //                lora_send((char*)&packet, packet.length + BF_PKG_HEADER_SIZE);
+        //                ESP_LOGW(TAG, "%s: SEND OTA ACK", __func__);
+        //                vTaskDelay(250 / portTICK_RATE_MS);
+        //            }
+        //        }
+        //        if (0)
+        //        {
+        //            ota_run = false;
+        //            xTimerStart( xPubMeasureTimer, 0 );
+        //        }
+
+        //        if (esp_timer_get_time()/1000 - last_ota_package > 10000)
+        //        {
+        //            char P = 'N';
+        //            lora_send(&P, 1);
+        //            last_ota_package = esp_timer_get_time()/1000;
+
+        //        }
+        //        vTaskDelay(10);
+        //    }
+        //}
+```
+
+# 2025-06-11
+Reporte fedex C193695658
+
