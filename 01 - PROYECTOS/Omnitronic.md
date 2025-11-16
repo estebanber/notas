@@ -15,3 +15,8 @@ cssclasses:
  - [MOSFET control batería](https://www.digikey.com/en/products/detail/vishay-siliconix/SI6423DQ-T1-GE3/1995533)
 
 ## Tiempo
+
+## Próximas tareas
+- [ ] Chequear boton wakeup en que pin está
+- [ ] Reset al mantener presionado el botón
+- [ ] GPS interno

@@ -505,3 +505,13 @@ add "int" before main(){} in file tools/kconfig/lxdialog/check-lxdialog.sh
 # 2025-06-11
 Reporte fedex C193695658
 
+# 2025-06-22
+Get esp-clang
+Instalar el ultimo release del siguiente repositorio
+https://github.com/espressif/llvm-project/releases/
+
+# 2025-06-24
+Auditoría OSDE 2614693700
+
+
+# 2025-07-27
