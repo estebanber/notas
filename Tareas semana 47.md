@@ -1,6 +1,6 @@
 ---
 created: 2025-11-17T18:11:31-03:00
-modified: 2025-11-17T18:15:18-03:00
+modified: 2025-11-17T18:21:53-03:00
 type: Checklist
 ---
 
@@ -13,3 +13,6 @@ type: Checklist
 - [ ] Bicilocker
 - [ ] Omnitronic
 - [ ] Responder Roberto
+- [ ] Conseguir pesos chilenos
+- [ ] Limpiar auto
+- [ ] Revisar mecánica auto
