@@ -1,6 +1,6 @@
 ---
 created: 2025-11-17T18:11:31-03:00
-modified: 2025-11-17T18:21:53-03:00
+modified: 2025-11-17T19:16:58-03:00
 type: Checklist
 ---
 
@@ -16,3 +16,4 @@ type: Checklist
 - [ ] Conseguir pesos chilenos
 - [ ] Limpiar auto
 - [ ] Revisar mecánica auto
+- [ ] Sacar plata
