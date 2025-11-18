@@ -1,12 +1,12 @@
 ---
 created: 2025-11-17T18:11:31-03:00
-modified: 2025-11-17T21:03:31-03:00
+modified: 2025-11-17T19:16:58-03:00
 type: Checklist
 ---
 
 # Tareas semana 47
 
-- [x] Llenar planilla pasantes
+- [ ] Llenar planilla pasantes
 - [ ] Code reviews
 - [ ] Reunión pasantes
 - [ ] Reunión Civil tec
